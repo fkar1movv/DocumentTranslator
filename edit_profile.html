@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Profile</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="EditProfile">
+            <div class="BackBtn">
+                <a href="dashboard.html">
+                    <div class="Rectangle12"></div>
+                    <div class="BackLabel"><span class="backImg">⇤</span><span> Back</span></div>
+                </a>
+              </div>
+            <div class="bottom_design">
+                <div class="Rectangle2"></div>
+                <div class="Rectangle1"></div>
+            </div>
+            <div class="up_design">
+                <div class="Rectangle5"></div>
+                <div class="Rectangle6"></div>
+            </div>
+            <div class="FullName">
+                <input type="text" class="input" placeholder="Full name" value="Alex Heugh">
+            </div>
+            <div class="Username">
+                <input type="text" class="input" placeholder="Username" value="ahuegh177">
+            </div>
+            <div class="Email">
+                <input type="email" class="input" placeholder="Email" value="aheugh177@gmail.com">
+            </div>
+            <div class="Password">
+                <input id="Password" type="password" class="input" placeholder="Password" value="dsdlkfj3#@__1">
+                <input style="top: 77px; position: absolute;" type="checkbox" onclick="showPassword()" value="Show">
+                <p style="top: 60px; left: 20px; position: absolute; font-size: 18px;">Show Password</p>
+            </div>
+            <div class="create_account_btn_container">
+                <button class="create_account_btn">
+                    <a href="#" style="color: white;">Save</a>
+                </button>
+            </div>
+            
+          </div>
+
+          <script>
+            function showPassword() {
+                var x = document.getElementById("Password");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+          </script>
+    </body>
+</html>

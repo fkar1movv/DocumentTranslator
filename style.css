@@ -1,0 +1,532 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c5c5c5;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body{
+    margin:0;
+}
+.Welcome{
+    width: 100vw;
+    height: 100vh; 
+    position: relative; 
+    background: white;
+}
+.bottom_design{
+    width: 336px; 
+    height: 86px; 
+    right: 0; 
+    bottom: 30px;
+    position: absolute;
+}
+.Rectangle2{
+    width: 336px; 
+    height: 50px; 
+    left: 0px; 
+    top: 36px; 
+    position: absolute; 
+    background: #6773E1; 
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 10px;
+}
+.Rectangle1{
+    width: 245px; 
+    height: 50px; 
+    left: 91px; 
+    top: 0px; 
+    position: absolute; 
+    background: #74A1E4; 
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 10px;
+}
+.up_design{
+    width: 302px; 
+    height: 75px; 
+    left: 0px; 
+    top: 96px; 
+    position: absolute;
+}
+.Rectangle5{
+    width: 302px; 
+    height: 50px; 
+    left: 0px; 
+    top: 25px; 
+    position: absolute; 
+    background: #6773E1; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 15px;
+}
+.Rectangle6{
+    width: 233.94px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    background: #74A1E4; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 15px;
+}
+.logo{
+    width: 398px; 
+    height: 181px; 
+    left: 441px; 
+    top: 189px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 70px; 
+    font-family: Playfair Display; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.CreateAccountBtn{
+    width: 300px; 
+    height: 60px; 
+    left: 491px; 
+    top: 404px; 
+    position: absolute;
+}
+.Rectangle7{
+    width: 300px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #E7E7E7; 
+    border-radius: 30px; 
+    border: 1px #1E90FF solid;
+    color: black; 
+    font-size: 25px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.LogIn_container{
+    width: 300px; 
+    height: 60px; 
+    left: 491px; 
+    top: 474px; 
+    position: absolute;
+}
+.Rectangle8{
+    width: 300px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #1E90FF;
+    border: 1px solid #1E90FF; 
+    border-radius: 30px;
+    color: white; 
+    font-size: 25px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* ----------------------  Create Account Page   -------------------------- */
+
+
+.CreateAccount_container{
+    width: 100vw; 
+    height: 100vh; 
+    position: relative; 
+    background: white;
+}
+.CreateAccount_label{
+    left: 502px; 
+    top: 100px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Playfair Display; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.FullName{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 192px; 
+    position: absolute;
+}
+.Username{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 272px; 
+    position: absolute;
+}
+.Email{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 352px; 
+    position: absolute;
+}
+.Password{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 432px; 
+    position: absolute;
+}
+.ConfirmPassword{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 512px; 
+    position: absolute;
+}
+.create_account_btn_container{
+    width: 300px; 
+    height: 60px; 
+    left: 490px; 
+    top: 592px; 
+    position: absolute;
+}
+.create_account_btn{
+    width: 300px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #1E90FF; 
+    border: 1px solid #1E90FF; 
+    border-radius: 30px;
+    font-size: 25px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.input{
+    width: 400px; 
+    height: 60px; 
+    padding: 0 20px;
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F4F2F2; 
+    border-radius: 30px; 
+    border: 1px #BBBBBB solid;
+    font-size: 22px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+
+/* ----------------------  Log In Page   -------------------------- */
+
+.LogIn{
+    width: 100vw; 
+    height: 100vh; 
+    position: relative; 
+    background: white;
+}
+.LogIn_label{
+    left: 583px; 
+    top: 230px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Playfair Display; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.LogIn_Username{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 312px; 
+    position: absolute;
+}
+.LogIn_Password{
+    width: 400px; 
+    height: 60px; 
+    left: 440px; 
+    top: 392px; 
+    position: absolute;
+}
+
+
+/* ----------------------  Dashboard Page   -------------------------- */
+
+
+.Dashboard_container{
+    /* width: 100vw; 
+    height: 100vh;  */
+    position: relative; 
+    background: white;
+}
+.Upload_container{
+    width: 500px; 
+    height: 150px; 
+    left: 390px; 
+    top: 120px; 
+    position: absolute;
+}
+.upload_btn{
+    width: 500px; 
+    height: 150px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F4F2F2; 
+    border-radius: 10px; 
+    border: 1px #BBBBBB solid;
+    cursor: pointer;
+}
+.File_info{
+    color: #757474; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.ChooseFile{
+    left: 130px; 
+    top: 105px; 
+    position: absolute;
+}
+.ChooseFile:first-child{
+    color: #757474; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+.uploadImage{
+    width: 70px; 
+    height: 70px; 
+    left: 215px; 
+    top: 20px; 
+    position: absolute;
+}
+.Profile{
+    width: 210px; 
+    height: 55px; 
+    left: 1030px; 
+    top: 40px; 
+    position: absolute;
+}
+.ProfilePic{
+    width: 35px; 
+    height: 35px; 
+    left: 165px; 
+    top: 10px; 
+    position: absolute; 
+    background: #A8C2F5; 
+    border-radius: 35px;
+}
+.ProfileName{
+    left: 41px; 
+    top: 15px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.ProfileCover{
+    width: 210px; 
+    height: 55px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F4F2F2; 
+    border-radius: 10px;
+}
+.LogOut{
+    width: 100px; 
+    height: 55px; 
+    left: 40px; 
+    top: 40px; 
+    position: absolute;
+}
+.Rectangle12{
+    width: 100px; 
+    height: 55px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #FF4747;
+    border: 1px solid #FF4747; 
+    border-radius: 10px;
+    color: white; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.TranslateBtn{
+    width: 150px; 
+    height: 45px; 
+    left: 565px; 
+    top: 280px; 
+    position: absolute;
+    background: #1E90FF; 
+    border: 1px solid #1E90FF;
+    border-radius: 10px
+}
+.Translate{
+    left: 31px; 
+    top: 12px; 
+    position: absolute; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.History{
+    width: 800px; 
+    height: 444px; 
+    left: 240px; 
+    top: 338px; 
+    position: absolute;
+}
+.Banner{
+    width: 800px; 
+    height: 410px; 
+    left: 0px; 
+    top: 34px; 
+    position: absolute;
+    background: #F4F2F2; 
+    border-radius: 10px; 
+    border: 1px #BBBBBB solid;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.HistoryLabel{
+    left: 10px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.HistoryFile{
+    width: 760px; 
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 15px;
+    /* left: 15px; 
+    top: 15px; 
+    position: absolute; */
+    background: #D9D9D9; 
+    border-radius: 10px;
+}
+.HistoryFile button{
+    background-color: #ffffff00;
+    border: 0px;
+    padding: 0px;
+}
+.fileIcon{
+    width: 30px; 
+    height: 30px; 
+    /* left: 10px; 
+    top: 10px; 
+    position: absolute; */
+}
+.fileName{
+    /* left: 50px; 
+    top: 14px; 
+    position: absolute;  */
+    color: #474747; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.fileDate{
+    /* left: 482px; 
+    top: 14px; 
+    position: absolute;  */
+    color: #474747; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.deleteIcon{
+    width: 30px; 
+    height: 30px; 
+    /* left: 720px; 
+    top: 10px; 
+    position: absolute; */
+}
+.downloadIcon{
+    width: 25px; 
+    height: 25px; 
+    /* left: 680px; 
+    top: 13px; 
+    position: absolute; */
+}
+
+
+/* ----------------------  Dashboard Page   -------------------------- */
+
+.EditProfile{
+    width: 100vw; 
+    height: 100vh; 
+    position: relative; 
+    background: white;
+}
+.BackBtn{
+    width: 100px; 
+    height: 55px; 
+    left: 40px; 
+    top: 20px; 
+    position: absolute;
+    background: #FF4747; 
+    border-radius: 10px;
+}
+.BackLabel{
+    left: 17px; 
+    top: 16px; 
+    position: absolute;
+}
+.backImg{
+    color: white; 
+    font-size: 20px; 
+    font-family: Inter;
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.BackLabel:nth-child(2){
+    color: white; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.Password:nth-child(2){
+    top: 60px;
+}
